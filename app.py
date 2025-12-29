@@ -45,3 +45,4 @@ if st.button("Predict Salary"):
     salary = model.predict([[level]])[0]
     st.success(f"💰 Predicted Salary: ₹ {salary:,.2f}")
 
+
